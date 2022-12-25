@@ -23,12 +23,34 @@ img {
 .link {
   text-decoration: none;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .header {
   background-color: #333;
 }
+.container {
+  width: 1360px;
+  margin: 0 auto;
+}
+.header-container {
+  padding: 0 50px;
+}
 .nav {
+  display: flex;
+  justify-content: space-between;
 }
 .logo {
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-size: 35px;
   line-height: calc(42 / 35);
   color: var(--color-accent);
@@ -37,6 +59,8 @@ img {
   color: var(--color-main-light);
 }
 .nav-list {
+  display: flex;
+  gap: 38px;
 }
 .nav-item {
 }
@@ -53,9 +77,11 @@ img {
 }
 .hero {
   background-color: #333;
+  padding: 280px 0;
 }
 
 .hero-title {
+  margin-bottom: 25px;
   font-weight: 300;
   font-size: 55px;
   line-height: calc(66 / 55);
@@ -64,6 +90,7 @@ img {
 }
 
 .hero-text {
+  margin-bottom: 30px;
   font-size: 22px;
   line-height: calc(37 / 22);
   text-align: center;
@@ -71,6 +98,10 @@ img {
 }
 
 .hero-button {
+  width: 165px;
+  height: 48px;
+  display: block;
+  margin: 0 auto;
   font-family: inherit;
   font-size: inherit;
   line-height: calc(28 / 18);
@@ -78,6 +109,7 @@ img {
   color: var(--color-main-light);
   background: #28a745;
   border-radius: 5px;
+  border: none;
   cursor: pointer;
 }
 .hero-button:hover,
