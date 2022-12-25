@@ -11,32 +11,44 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
-      <nav class="nav">
-        <a href="./index.html" class="logo link"
-          >Finance<span class="logo-light">Ledger</span></a
-        >
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a href="#" class="nav-link link current">Home</a>
-          </li>
-          <li class="nav-item"><a href="#" class="nav-link link">About</a></li>
-          <li class="nav-item"><a href="#" class="nav-link link">Cases</a></li>
-          <li class="nav-item"><a href="#" class="nav-link link">Blog</a></li>
-          <li class="nav-item">
-            <a href="#" class="nav-link link">Contact</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="header-container container">
+        <nav class="nav">
+          <a href="./index.html" class="logo link"
+            >Finance<span class="logo-light">Ledger</span></a
+          >
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#" class="nav-link link current">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link link">Cases</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link link">Blog</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
       <section class="hero">
-        <h1 class="hero-title">The Sky Is The Limit</h1>
-        <p class="hero-text">We provide world class financial assistance</p>
-        <button type="button" class="hero-button">> Read More</button>
+        <div class="container">
+          <h1 class="hero-title">The Sky Is The Limit</h1>
+          <p class="hero-text">We provide world class financial assistance</p>
+          <button type="button" class="hero-button">> Read More</button>
+        </div>
       </section>
       <section class="features">
         <h2 class="features-title visually-hidden">Features</h2>
@@ -44,80 +56,138 @@
           <li class="features-item">
             <h3 class="features-property">Investmant Banking</h3>
             <p class="features-text">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Consequatur, necessitatibus!
             </p>
           </li>
           <li class="features-item">
             <h3 class="features-property">Portfolio Manager</h3>
             <p class="features-text">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Consequatur, necessitatibus!
             </p>
           </li>
           <li class="features-item">
             <h3 class="features-property">Tax & Custudio</h3>
             <p class="features-text">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Consequatur, necessitatibus!
             </p>
           </li>
         </ul>
       </section>
       <section class="provide">
-        <img class="provide-image" src="./images/Rectangle.jpg" alt="Team" width="680">
+        <img
+          class="provide-image"
+          src="./images/Rectangle.jpg"
+          alt="Team"
+          width="680"
+        />
         <div class="provide-box">
-        <p class="provide-subtitle">
-          What you are looking for
-        </p>
-        <h2 class="provide-title">We provide bespoke solutions</h2>
-        <p class="provide-text">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab dolores itaque rerum temporibus doloribus iste maiores deleniti?
-        </p>
-        <button class="provide-button" type="button">Read More</button>
+          <p class="provide-subtitle">What you are looking for</p>
+          <h2 class="provide-title">We provide bespoke solutions</h2>
+          <p class="provide-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
+            ipsum dignissimos quae laudantium asperiores nam aliquid impedit
+            harum illum dolore explicabo ab dolores itaque rerum temporibus
+            doloribus iste maiores deleniti?
+          </p>
+          <button class="provide-button" type="button">Read More</button>
         </div>
       </section>
-        <section class="cases">
+      <section class="cases">
         <p class="cases-subtitle">This is what we do</p>
         <h2 class="cases-title">Business Cases</h2>
-        <p class="cases-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
+        <p class="cases-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+          sapiente!
+        </p>
         <ul class="cases-list">
           <li class="cases-item">
-            <img class="cases-image" src="./images/cases-8.jpg" alt="Team descusion the project" width="320">
+            <img
+              class="cases-image"
+              src="./images/cases-8.jpg"
+              alt="Team descusion the project"
+              width="320"
+            />
           </li>
           <li class="cases-item">
-            <img class="cases-image" src="./images/cases-6.jpg" alt="Statistic" width="320">
+            <img
+              class="cases-image"
+              src="./images/cases-6.jpg"
+              alt="Statistic"
+              width="320"
+            />
           </li>
           <li class="cases-item">
-            <img class="cases-image" src="./images/cases-4.jpg" alt="Handshake" width="320">
+            <img
+              class="cases-image"
+              src="./images/cases-4.jpg"
+              alt="Handshake"
+              width="320"
+            />
           </li>
           <li class="cases-item">
-            <img class="cases-image" src="./images/cases-2.jpg" alt="Teambuilding" width="320">
+            <img
+              class="cases-image"
+              src="./images/cases-2.jpg"
+              alt="Teambuilding"
+              width="320"
+            />
           </li>
           <li class="cases-item">
-            <img class="cases-image" src="./images/cases-7.jpg" alt="Girl works on notebook" width="320">
+            <img
+              class="cases-image"
+              src="./images/cases-7.jpg"
+              alt="Girl works on notebook"
+              width="320"
+            />
           </li>
           <li class="cases-item">
-            <img class="cases-image" src="./images/cases-5.jpg" alt="Skyscraper" width="320">
+            <img
+              class="cases-image"
+              src="./images/cases-5.jpg"
+              alt="Skyscraper"
+              width="320"
+            />
           </li>
           <li class="cases-item">
-            <img class="cases-image" src="./images/cases-3.jpg" alt="Team" width="320">
+            <img
+              class="cases-image"
+              src="./images/cases-3.jpg"
+              alt="Team"
+              width="320"
+            />
           </li>
           <li class="cases-item">
-            <img class="cases-image" src="./images/cases-1.jpg" alt="Team working" width="320">
+            <img
+              class="cases-image"
+              src="./images/cases-1.jpg"
+              alt="Team working"
+              width="320"
+            />
           </li>
         </ul>
       </section>
       <section class="blog">
         <div class="blog-box">
-        <p class="blog-subtitle">
-          April 16 2020
-        </p>
-        <h2 class="blog-title">Blog Post One</h2>
-        <p class="blog-text">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab dolores itaque rerum temporibus doloribus iste maiores deleniti?
-        </p>
-        <button class="blog-button" type="button">Read Our Blog</button>
+          <p class="blog-subtitle">April 16 2020</p>
+          <h2 class="blog-title">Blog Post One</h2>
+          <p class="blog-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
+            ipsum dignissimos quae laudantium asperiores nam aliquid impedit
+            harum illum dolore explicabo ab dolores itaque rerum temporibus
+            doloribus iste maiores deleniti?
+          </p>
+          <button class="blog-button" type="button">Read Our Blog</button>
         </div>
-        <img class="blog-image" src="./images/blog.jpg" alt="Notes" width="680">
-          </section>
+        <img
+          class="blog-image"
+          src="./images/blog.jpg"
+          alt="Notes"
+          width="680"
+        />
+      </section>
     </main>
   </body>
 </html>
